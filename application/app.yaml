@@ -8,9 +8,9 @@ spec:
 
   source: 
     repoURL: https://github.com/shavakan/argocd-demo
-    targetRevision: master
+    targetRevision: dev
     path: helm/my-app
     helm:
       valueFiles:
-        - values-prod.yaml
+        - values-dev.yaml
         - version.yaml
